@@ -1,0 +1,49 @@
+adaptive-music-ai-feedback-loop/
+│
+├── LICENSE
+├── README.md
+│
+├── docs/                        # All ACSPO product development documentation
+│   ├── problem-statement.md
+│   ├── problem-discovery.md
+│   ├── product-vision.md
+│   ├── user-personas.md
+│   ├── architecture.md
+│   ├── user-journey.md
+│
+├── mvp/                         # MVP planning & launch files
+│   ├── mvp-scope.md
+│   ├── feature-prioritization.md
+│   ├── wireframes.md
+│   ├── testing-plan.md
+│   ├── deployment-plan.md
+│   ├── retrospective.md
+│
+├── data/                        # Sample datasets for testing AI
+│   ├── sample_user_data.json
+│   ├── music_metadata.csv
+│
+├── models/                      # AI model files & retraining scripts
+│   ├── baseline_model.pkl
+│   ├── retraining_script.py
+│
+├── backend/                     # Backend API code
+│   ├── requirements.txt
+│   ├── main.py
+│   ├── routes/
+│   ├── services/
+│
+├── frontend/                    # Frontend app code (React Native)
+│   ├── package.json
+│   ├── App.js
+│   ├── components/
+│   ├── screens/
+│
+├── scripts/                     # Automation & utilities
+│   ├── data_cleaning.py
+│   ├── model_evaluation.py
+│
+└── .github/                     # GitHub automation & CI/CD workflows
+    └── workflows/
+        ├── ci.yml
+        ├── cd.yml
